@@ -70,5 +70,5 @@ This project is for personal and educational use only
 --- 
 
 ## 💌 Contact
-For any questions, feedback, or suggestions, feel free to connect with me on GitHub: jsmehta21
+For any questions, feedback, or suggestions, feel free to connect with me on GitHub: jsmehta21 <br>
 Thank you for checking out the Hangman Game! 🎉
