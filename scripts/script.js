@@ -12,7 +12,7 @@ const resetGame = () => {
     // resetting all game variables and UI elements
     correctLetters = [];
     wrongGuessCount = 0;
-    hangmanImage.src = `hangman-${wrongGuessCount}.svg`;
+    hangmanImage.src = `./assets/hangman-${wrongGuessCount}.svg`;
     guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
     keyboardDiv.querySelectorAll("button").forEach(btn => btn.disabled = false);
     wordDisplay.innerHTML = currentWord.split("").map(() => `<li class="letter"></li>`).join(""); 
@@ -50,7 +50,7 @@ const initGame = (button, clickedLetter) => {
     } else {
         // if clicked letter doesn't exist then update the wrongGuessCount and hangman image
         wrongGuessCount++;
-        hangmanImage.src = `hangman-${wrongGuessCount}.svg`;
+        hangmanImage.src = `assets/hangman-${wrongGuessCount}.svg`;
     }
     button.disabled = true;
     guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
