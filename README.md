@@ -1,5 +1,6 @@
 # 🎮 Hangman Game
-Welcome to the **Hangman Game**! This is a fun and interactive word-guessing game where players attempt to guess a hidden word before running out of attempts. It’s a great beginner-friendly project that showcases basic **HTML, CSS, and JavaScript** skills.
+Welcome to the **Hangman Game**! This is a fun and interactive word-guessing game where players attempt to guess a hidden word before running out of attempts. It’s a great beginner-friendly project that showcases basic **HTML, CSS, and JavaScript** skills. <br>
+Deployed Link: https://hangman-game-jiya.netlify.app/
 
 ---
 
@@ -30,12 +31,14 @@ Hangman-Game/
 ├── index.html        # Main HTML file (game structure)
 ├── style.css         # CSS file (styling and layout)
 ├── script.js         # JavaScript file (game logic)
-└── images and gifs   # Images and gifs used in the game
+└── assets            # Images and gifs used in the game
 ```
 
 ---
 
 ## 🚀 How to Play
+Visit the website to play: https://hangman-game-jiya.netlify.app/ <br>
+To run this locally, follow the steps given below:
 1. Clone the repository:
 ```plaintext
 git clone https://github.com/jsmehta21/Hangman-Game.git
