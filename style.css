@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 850px;
+    width: 1000px;
     background: #ffffff;
     display: flex;
     gap: 70px;
